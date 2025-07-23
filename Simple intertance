@@ -1,0 +1,19 @@
+abstract class Flowers {
+    abstract void types();
+    
+    void fragrance() {
+        System.out.println("This is a flower");
+    }
+}
+class Rose extends Flowers {
+    void types() {
+        System.out.println("They are more types in flowers");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Flowers s = new Rose(); 
+        s.fragrance(); 
+        s.types();
+    }
+}

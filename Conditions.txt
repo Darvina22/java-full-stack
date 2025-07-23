@@ -1,0 +1,91 @@
+ARITHMETIC OPERATORS
+addition(+) to add two numbers
+subraction(-) to subtract the given numbers
+multiplication(*) to multiply the numbers
+Division (/) Divides the left operand by the right operand
+modulus(%) gives the remainder value
+increment ++ 
+pre increment,post increment
+decrement--
+post decrement , pre decrement
+
+
+
+Assignment operators
+= assign a value to variable
+x+=y relevant to x=x=y
+x-=y
+x*=y
+x/=y
+x%=y
+
+
+
+
+Relational operators
+equal to(==)
+not equal to(!=)
+greater than(>)
+lesser than(<)
+grater than or equal to(>=)
+lesser than or equal to(<=)
+
+
+logical operators
+and(&&) two are equal
+or(||) one are equal
+not(!) if condition is true it becomes false
+
+
+bitwise operators
+and(&) if both bits are 1 it becomes 1
+or(|) if one bits has 1 it becomes 1
+not(~) 1 turned into 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+condition is evaluated before each iteration of loop
+
+
+public class Forexample{
+public static void main(String[] args){
+for(int i=0;i<5;i++){
+System.out.println("Iteration: "+i);
+}
+}
+}
+
+
+
+
+
+
+public class Whileloop{
+public static void main(String[] args){
+int count=1;
+while(count<=0){
+System.out.println("numbers:"+count);
+count++;
+}
+}
+}
+
+
+
+
+
+
+
+
